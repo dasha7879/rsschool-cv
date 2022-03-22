@@ -3,8 +3,8 @@
 # My Contact Info:
 * **Phone:**  +37529564-27-87
 * **E-mail:** mikhalkina.darja@gmail.com
-* **GitHub:** dasha7879
-* **Telegram:** Mikhalkina Darja
+* **GitHub:** [dasha7879](https://github.com/dasha7879)
+* **Telegram:** [Mikhalkina Darja](https://t.me/DarjaMik)
 
 ## About Me
 * Pay attention to details
