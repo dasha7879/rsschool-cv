@@ -1,0 +1,22 @@
+
+@mixin icons ($background, $bg-repeat:  no-repeat, $padding-left: 5.4rem,$height:3.4rem) {
+    background: $background;
+    background-repeat: $bg-repeat;
+    padding-left:$padding-left; 
+    line-height:$height;
+ 
+}
+
+
+@mixin font ($size, $height, $weight:400) {
+
+    font-size:$size;
+    line-height: $height;
+    font-weight: $weight;
+}
+
+@mixin footer ($width, $height, $margin: 0 40px 0 0){
+    width:$width;
+    height:$height;
+    margin: $margin;
+}

@@ -1,0 +1,15 @@
+.wrapper__education{  
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.text__education{
+    @include font ($size:2rem, $height:3rem);
+    @extend %font-primary;
+}
+
+.title__education{
+    padding: 46px 0 0 0;
+}
+

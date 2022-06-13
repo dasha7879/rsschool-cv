@@ -1,0 +1,28 @@
+.footer{
+    background:$color-brand;
+}
+
+.symbols__footer{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:$color-brand;
+    
+}
+
+.rs-logo{
+    @include footer ($width: 86px, $height: 32px, $margin: 0 0 5px 40px);
+   
+}
+
+.github-footer{
+    @include footer ($width: 64px, $height: 64px);
+
+}
+
+
+.footer__text{
+    font-size: 2.4rem;
+    font-weight: bold;
+}

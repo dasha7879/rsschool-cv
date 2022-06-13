@@ -3,12 +3,160 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Darja Smaharzheuskaya CV</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-widthс, initial-scale=1.0">
+    <title>Darja  CV</title>
+    <link rel="stylesheet" href="./sass/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Open+Sans:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="icon" href="assets/img/ico.png">
 </head>
 <body>
-    <h1>Hello world!</h1>
+    <header class="header">
+        <div class="wrapper wrapper__header">
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item">
+                        <a class="nav-links" href="#Contacts">Contacts</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="nav-links" href="#About Me">About Me</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="nav-links" href="#Skills">Skills</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="nav-links" href="#Code">Code</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="nav-links" href="#Projects">Projects</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="nav-links" href="#Education">Education</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="nav-links" href="#Languages">Languages</a>
+                    </li>
+                </ul>  
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="both-sides">
+                <div class="left-side">
+                    <div class="photo-left-side">
+                        <img  class="photo" src="./assets/img/photo.jpg" alt="photo">
+                    </div>
+                    <section class="Contacts">
+                        <div class="wrapper wrapper__contacts">
+                            <h2 class=" title-left title__contacts">CONTACT ME</h2>
+                            <ul class="list-contacts">
+                                <li class="text-contact text-contact__latter"> <a href=""></a>mikhalkina.darja@gmail.com</li>
+                                <li class="text-contact text-contact__phone">+37529564-27-87</li>
+                                <li class="text-contact text-contact__telegram"><a class="link-contacts" href="https://t.me/DarjaMik">Mikhalkina Darja</a></li>
+                                <li class="text-contact text-contact__github"><a class="link-contacts" href="https://github.com/dasha7879">dasha7879</a></li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="education">
+                        <div class="wrapper wrapper__education">
+                            <h2 class="title-left title__education">EDUCATION</h2>
+                            <p class="text text__education">Vitebsk State Order of Peoples' Friendship Medical University (pharmaceutical faculty)</p>
+                            <p class="text text__education">Udemy: JavaScript/react(in process)</p>
+                            <p class="text text__education">Rs-school:JS/FE Pre-school 2022Q2(in process)</p>
+                        </div>
+                    </section> 
+                </div>
+                <div class="right-side">
+                    <section class="profile">
+                        <div class="wrapper wrapper__profile">
+                            <div class="profile-content">
+                                <div class="titles">
+                                    <h1 class="profile-title">Darya</h1>
+                                    <span class="profile-title-2">Smaharzheuskaya</span> 
+                                    <h3 class="profile__subtitle">Junior Front-End Developer</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <section class="About">
+                        <div class="wrapper wrapper__about">
+                            <h2 class=" title-right title__about">ABOUT ME</h2>
+                            <span class="line"></span>
+                            <ul class="list list__about">
+                                <li class="item__about">Pay attention to details</li>
+                                <li class="item__about">Developed skills of building interpersonal relationships</li>
+                                <li class="item__about">I can to work in multitasking mode</li>
+                                <li class="item__about">Teamwork skills</li>
+                                <li class="item__about">Result Oriented</li>
+                            </ul>
+                        </div>
+                    </section>    
+                    <section class="Skills">
+                        <div class="wrapper wrapper__skills">
+                            <h2 class=" title-right title__skills">SKILLS</h2>
+                            <span class="line"></span>
+                            <ul class=" list list__skills">
+                                <li class="item__skills">HTML</li>
+                                <li class="item__skills">CSS</li>
+                                <li class="item__skills">Sass</li>
+                                <li class="item__skills">BEM</li>
+                                <li class="item__skills">Basic knowledge of JavaScript</li>
+                                <li class="item__skills">Git</li>
+                                <li class="item__skills">Figma / Photoshop</li>
+                            </ul>
+                        </div>
+                    </section>  
+                    <section class="code">
+                        <div class="wrapper wrapper__code">
+                            <h2 class=" title-right title__code">CODE</h2>
+                            <div class="line-container">
+                                <span class="line"></span>
+                            </div>
+                            <div class="code-container">
+                                <code>
+                                    function getRandomBetween (min, max){ <br>
+                                        return Math.floor(min + (Math.random() * (max-min+1))) <br>
+                                    } <br>
+                                    console.log(getRandomBetween (10, 42))
+                                </code>
+                            </div>
+                        </div>
+                    </section> 
+                    <section class="projects">
+                        <div class="wrapper wrapper__projects">
+                            <h2 class=" title-right title__projects">PROJECTS</h2>
+                            <span class="line"></span>
+                            <ul class="list list__projects">
+                                <li class="item__projects"> <a class="link-projects" href="#">Portfolio-project</a></li>
+                                <li class="item__projects"> <a class="link-projects" href="#">Cv-projects</a></li>
+                            </ul>  
+                        </div>
+                    </section> 
+                </section> 
+                <section class="languages">
+                    <div class="wrapper wrapper__languages">
+                        <h2 class=" title-right title__languages">LANGUAGES</h2>
+                        <span class="line"></span>
+                        <ol class="list list__languages">
+                            <li class="item__languages">Russian - native speaker</li>
+                            <li class="item__languages">English - B1-B2</li>
+                        </ol>  
+                    </div>
+                </section> 
+                </div>
+        </main>
+        <footer class="footer">
+            <div class="wrapper wrapper-footer">
+                    <div class="symbols__footer">
+                         <a href="https://rs.school/js/"><img  class= 'rs-logo' src="./assets/img/logo-rs.png" alt="logo-RS"></a> 
+                        <span class="footer__text">2022</span>
+                         <a href="https://github.com/dasha7879"><img  class = 'github-footer' src="./assets/svg/github-footer.svg" alt="logo-RS"></a>
+                    </div>
+            </div>
+        </div>
+    </footer> 
 </body>
 </html>

@@ -1,0 +1,25 @@
+.profile-content{
+    display: block;
+    color:$color-text-add;
+    width:766px;
+    height:405px;
+    padding: 73px;
+}
+
+.profile-title{
+    font-size: 100px;
+    line-height: 136px;
+}
+
+.profile-title-2{
+    @extend %font-title;
+    @include font($size:7.3rem, $height:7rem);
+    margin: 0px;
+    color: $color-text-add;
+}
+
+.profile__subtitle {
+    @extend %font-title;
+    font-weight:400;
+    line-height: 41px
+}

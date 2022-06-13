@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+ html{
+   font-size: 10px;
+   scroll-behavior: smooth; 
+ }
+
+
+ body{
+   font-size: 10rem;
+   min-width: 1440px;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+ }
+
+
+ h1{
+   font-size: 7.8rem;
+   margin: 0px;
+   @extend %font-title;
+   color: $color-text-add;
+}
+
+
+h2{
+  @extend %font-primary;
+   font-size: 3.2rem;
+ }
+
+
+h3{
+   font-size: 3rem;
+   color: $color-text-add;
+ }
+
+
+
+ p{
+   font-size: 1.4rem;
+ }
+ 
+
+ .both-sides{
+  display: grid;
+  grid-template-columns: 335px 1fr;
+}
+
+.title-right{
+  padding:0 0 0 250px;
+}
+
+.title-left{
+  text-align: center;
+}

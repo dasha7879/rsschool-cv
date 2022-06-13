@@ -16,8 +16,12 @@
 ## Skills
 * HTML
 * CSS
+* Sass
+* BEM
 * Basic knowledge of JavaScript
 * Git
+* Figma / Photoshop
+
 
 ## Code Example 
 ```
@@ -32,7 +36,8 @@ console.log(getRandomBetween (10, 42))
 1. Vitebsk State Order of Peoples' Friendship Medical University, pharmaceutical faculty
 1. Udemy:
 JavaScript/react(in process)
-
+1. Rs-school:
+JS/FE Pre-school 2022Q2(in process)
 ## Languages
 1. Russian - native speaker
 1. English - B1-B2

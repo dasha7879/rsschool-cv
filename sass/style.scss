@@ -7,14 +7,26 @@
 //base
 @import "base/base";
 @import "base/fonts";
-@import "base/typography";
 
 
 //layouts
 @import "layouts/header";
-@import "layouts/navigation";
+@import "layouts/contact";
+@import "layouts/education";
+@import "layouts/profile";
+@import "layouts/about";
+@import "layouts/skills";
+@import "layouts/code";
+@import "layouts/projects";
+@import "layouts/languages";
 @import "layouts/footer";
 
+
+//components
+@import "components/left-side";
+@import "components/line";
+@import "components/list";
+@import "components/wrapper";
 
 
 

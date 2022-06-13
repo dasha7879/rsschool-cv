@@ -1,0 +1,35 @@
+.text-contact{
+    @extend %font-primary;
+    padding-bottom: 26px;
+    @include font ($size:2rem, $height:3.4rem) ;
+}
+
+
+.list-contacts{
+    list-style: none;
+}
+
+
+.link-contacts{
+    text-decoration: none;
+    color: black;
+}
+
+
+.text-contact__latter{
+    @include icons ($background:url(../assets/svg/latter.svg));
+}
+
+.text-contact__phone{
+    @include icons ($background:url(../assets/svg/phone.svg));
+}
+
+.text-contact__telegram{
+    @include icons ($background:url(../assets/svg/telegram.svg));
+}
+
+.text-contact__github{
+    @include icons ($background:url(../assets/svg/github.svg));
+}
+
+

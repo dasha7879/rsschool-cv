@@ -1,0 +1,17 @@
+.code{
+     @extend %font-add;
+     @include font ($size:2.4rem, $height:3.6rem);
+     padding: 0 0 62px 0;
+    
+}
+
+
+.code-container{
+    padding-left: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.line-container{
+    padding-bottom: 20px;
+}
