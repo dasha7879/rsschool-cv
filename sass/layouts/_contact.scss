@@ -28,6 +28,13 @@
     @include icons ($background:url(../assets/svg/telegram.svg));
 }
 
+.link-contacts:hover{
+    color:$color-brand;
+    transition: all .3s;
+}
+
+
+
 .text-contact__github{
     @include icons ($background:url(../assets/svg/github.svg));
 }

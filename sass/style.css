@@ -2,7 +2,7 @@
   font-family: "Poppins", Verdana, sans-serif;
 }
 
-.list, .code {
+.list, .code, .navigation__item {
   font-family: "Inter", Verdana, sans-serif;
 }
 
@@ -110,11 +110,17 @@ p {
   padding: 0 15px;
   cursor: pointer;
   font-size: 1.6rem;
+  font-weight: 500;
 }
 
 .nav-links {
   color: #ffffff;
   text-decoration: none;
+}
+
+.nav-links:hover {
+  color: #17171a;
+  transition: all 0.3s;
 }
 
 .text-contact {
@@ -152,6 +158,11 @@ p {
   background-repeat: no-repeat;
   padding-left: 5.4rem;
   line-height: 3.4rem;
+}
+
+.link-contacts:hover {
+  color: #49A49D;
+  transition: all 0.3s;
 }
 
 .text-contact__github {
@@ -238,6 +249,15 @@ p {
 
 .list__projects {
   list-style: none;
+}
+
+.link-projects {
+  color: #17171a;
+}
+
+.link-projects:hover {
+  color: #49A49D;
+  transition: all 0.3s;
 }
 
 .item__languages {

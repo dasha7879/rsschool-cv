@@ -22,10 +22,17 @@
     padding: 0 15px;
     cursor: pointer;
     font-size: 1.6rem;
+    font-weight: 500;
+    @extend %font-add
 }
 
 
 .nav-links{
     color: $color-text-add;
     text-decoration: none;
+}
+
+.nav-links:hover{
+    color: $color-text;
+    transition: all .3s;
 }

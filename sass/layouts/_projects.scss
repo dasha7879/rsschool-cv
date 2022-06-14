@@ -6,3 +6,14 @@
 .list__projects{
     list-style:none;
 }
+
+.link-projects{
+    color: $color-text;
+}
+
+.link-projects:hover{
+        color:$color-brand;
+        transition: all .3s;
+    }
+
+
