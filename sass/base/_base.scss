@@ -12,10 +12,13 @@
  body{
    font-size: 10rem;
    min-width: 1440px;
-   margin: auto;
    display: flex;
    flex-direction: column;
    justify-content: space-around;
+ }
+
+ .container{
+  margin: auto;
  }
 
 
