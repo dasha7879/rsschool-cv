@@ -24,7 +24,7 @@ body {
   min-width: 1440px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .container {
